@@ -2,20 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.space{
+  background-image: url('/images/space-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.header{
+  backdrop-filter: blur(81.55px);
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.destination{
+  background-image: url('/images/destination-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 110vh; 
+}
+.crew{
+  background-image: url('/images/crew.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+}
+.technology{
+  background-image: url('/images/launch.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
 }
